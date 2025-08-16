@@ -36,7 +36,9 @@ app.get('/allPositions' , async(req,res)=>{
     res.json(allPositions);
 });
 
-
+app.get("/", (req,res)=>{
+    res.send("Hello! Backend is Deployed successfully 🚀")
+});
 
 // app.get("/addPositions" , async(req,res)=>{
 //         let tempPositions = [
